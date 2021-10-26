@@ -13,6 +13,9 @@ html, body{
    font-size: 100%;
    background:#fff; 
 }
+.underline{
+	border-bottom: 2px solid #42A5F5;
+}
 body{
 	font-family: 'Sintony', sans-serif !important;
 	border-top:5px solid #42A5F5;
