@@ -16,6 +16,9 @@ html, body{
 .underline{
 	border-bottom: 2px solid #42A5F5;
 }
+html{
+	scroll-behavior: smooth;
+}
 body{
 	font-family: 'Sintony', sans-serif !important;
 	border-top:5px solid #42A5F5;
@@ -84,7 +87,7 @@ body a:hover{
 }
 .top-nav ul li{
 	display:inline-block;
-	float:left;
+	/* float:left; */
 	width:20%;
 	border-right: 1px solid rgba(78, 78, 78, 0.57);
 }
@@ -111,6 +114,22 @@ body a:hover{
 .navbar-nav {
     float: none !important;
 }
+/* .top-nav ul li.dropdown ul{
+	background-color: #6a737b;
+	position: absolute;
+	left: 0;
+	padding-left: 0;
+	min-width: 215px;
+	display: none;
+}
+.top-nav ul li.dropdown ul li a{
+	color: white;
+	width: 215px;
+}
+.top-nav ul li.dropdown:hover ul{
+	display:list-item;
+	z-index: 5;
+} */
 /*---start-content----*/
 /*  GRID OF FOUR   ============================================================================= */
 .content {
@@ -926,6 +945,24 @@ body a:hover{
 .map{
 	margin-bottom:15px;
 }
+
+/*--------------------------------------------footer section end------------------------------------------------ */
+.myBtn{
+		position: fixed;
+		bottom: 20px;
+		right: 20px;
+		z-index: 99;
+		border: none;
+		color: #F7F5F9;
+		background: #6a737b;
+		padding: 10px;
+		border-radius: 10px;
+}
+.myBtn:hover{
+		background: #42a5f5;
+	}
+
+
 /*----responsive-design-----*/
 @media(max-width:1366px){
 	.wrap{
