@@ -88,7 +88,7 @@ body a:hover{
 .top-nav ul li{
 	display:inline-block;
 	/* float:left; */
-	width:20%;
+	 width:20%;
 	border-right: 1px solid rgba(78, 78, 78, 0.57);
 }
 .top-nav li.active1> a, .top-nav li> a:hover {
@@ -114,22 +114,43 @@ body a:hover{
 .navbar-nav {
     float: none !important;
 }
-/* .top-nav ul li.dropdown ul{
+#navbar{
+	padding: 0%;
+}
+
+/* updated css for navbar */
+.dropdown ul li{
+	display: inline-block;
+	width: 100%;
 	background-color: #6a737b;
-	position: absolute;
-	left: 0;
-	padding-left: 0;
-	min-width: 215px;
-	display: none;
+	border-bottom: 2px solid #42A5F5;
+	padding: 0%;
 }
-.top-nav ul li.dropdown ul li a{
-	color: white;
-	width: 215px;
+ .dropdown li.active1> a, .dropdown li> a:hover {
+	background:#42a5f5;
+} 
+.dropdown-menu li a{
+	margin: 0% !important;
+	padding: 15px !important;
+	color: white !important;
+	-webkit-transition: all 0.3s ease-out !important;
+	-moz-transition: all 0.3s ease-out !important;
+	-ms-transition: all 0.3s ease-out !important;
+	-o-transition: all 0.3s ease-out !important;
+	transition: all 0.3s ease-out !important;
+	font-size: 0.9em !important;
+	 text-align: center !important;
+	font-family: 'Sintony', sans-serif !important;
 }
-.top-nav ul li.dropdown:hover ul{
-	display:list-item;
-	z-index: 5;
-} */
+.dropdown li a:hover{
+	background:#42a5f5 !important;
+} 
+/* end of updated navbar in index2.hmtl */
+
+
+
+
+
 /*---start-content----*/
 /*  GRID OF FOUR   ============================================================================= */
 .content {
